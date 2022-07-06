@@ -10,6 +10,7 @@ h1{
 }
 section{
     display: flex;
+    margin-bottom: 100px;
 }
 .top-banner{
     background-image: url(images/top-banner.png);
@@ -22,11 +23,16 @@ section{
 .half-width img{
     width: 80%;
 }
-.hireMe-button{
+.link-button{
     text-decoration: none;
     color: aliceblue;
     background-image: linear-gradient(orange, tomato);
     font-weight: 700;
     padding: 10px 30px;
     border-radius: 5px;
+}
+.next-target{
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
 }
