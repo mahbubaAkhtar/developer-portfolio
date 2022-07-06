@@ -5,10 +5,10 @@ h1{
     font-size: 50px;
 }
 
-#name-color{
-    color: red;
+.name-color{
+    color: orangered;
 }
-section{
+.flexible{
     display: flex;
     margin-bottom: 100px;
 }
@@ -35,4 +35,31 @@ section{
     background-image: url(images/dream-bg.png);
     background-repeat: no-repeat;
     background-position: right;
+}
+.experience-area{
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+
+}
+.experience-box{
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding: 3%;
+    box-shadow: 10px 10px 20px gray ;
+    
+}
+#fullStack-box-color{
+    border-left: 10px solid;
+    border-image: linear-gradient(salmon, tomato);
+    border-image-slice: 1;
+}
+#junior-box-color{
+    border-left: 10px solid;
+    border-image: linear-gradient(blue, cyan);
+    border-image-slice: 1;
+}
+footer p{
+    text-align: center;
 }
