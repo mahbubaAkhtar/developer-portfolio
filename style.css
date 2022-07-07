@@ -85,10 +85,20 @@ h1{
     position: relative;
 }
 
-.Swiz_Pic{
+.Swiz-pic-div{
     position: relative;
-    height: 100%;
-    width: 100%;
+    background-size: cover;
+    text-align: center;
+}
+.swiz-pic{
+    height: max-content;
+    width: max-content;
+}
+
+.Swiz-visit-button{
+    position: absolute;
+    top: 50%;
+    Right: 45%;
 }
 
 .pic{
